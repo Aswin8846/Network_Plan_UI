@@ -1,8 +1,9 @@
+// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css'; // Import your CSS file for global styles
+import App from './App'; // Import the main App component
+import reportWebVitals from './reportWebVitals'; // Import performance measuring tool
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
